@@ -34,7 +34,7 @@ RESET.addEventListener('click', function() {
 })
 
 RANDOM.addEventListener('click', function() {
-    countValue = Math.floor(Math.random() * 1000);
+    countValue = (Math.floor(Math.random() * 100)+1);
     setCounter()
 })
 
